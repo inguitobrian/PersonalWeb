@@ -17,7 +17,7 @@
           :key="item.id"
           class="col-lg-4 col-md-6 portfolio-item"
         >
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content">
             <a
               :href="`/assets/img/portfolio/${item.image}`"
               data-gallery="portfolio-gallery-app"
@@ -57,21 +57,21 @@ export default {
       previewItems: [
         {
           id: 1,
-          title: "Library Home Page",
-          image: "proj1.jpg",
-          shortDesc: "Laravel, PHP, CSS, HTML",
+          title: "Website and Mobile Application",
+          image: "merchandise.png",
+          shortDesc: "Laravel, PHP, CSS, HTML, Vue.js, Dart, Flutter",
         },
         {
           id: 6,
-          title: "Brand Identity Package",
-          image: "branding-1.jpg",
-          shortDesc: "Logo, Color Palette, Typography",
+          title: "Graphics Design",
+          image: "summers.png",
+          shortDesc: "Canva, Figma, Adobe Photoshop",
         },
         {
           id: 8,
-          title: "Event Poster Design",
-          image: "branding-3.jpg",
-          shortDesc: "Print & Graphics Design",
+          title: "Layout Design",
+          image: "tshirt.png",
+          shortDesc: "Print Layout",
         },
       ],
     };
@@ -124,5 +124,35 @@ export default {
   color: black;
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-content {
+  overflow: hidden;
+  border-radius: 8px;
+  height: auto !important;
+}
+
+.portfolio-content img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-content:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio-info {
+  padding: 15px;
+}
+
+.portfolio-info h4 {
+  margin-bottom: 5px;
+}
+
+.portfolio-info p {
+  margin-bottom: 0;
 }
 </style>
