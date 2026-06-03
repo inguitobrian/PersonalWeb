@@ -8,6 +8,9 @@
       <!-- Hero Section -->
       <HeroSection />
 
+      <!-- Marquee Section -->
+      <MarqueeSection />
+
       <!-- About Section -->
       <AboutSection />
 
@@ -22,6 +25,8 @@
 
       <!-- Contact Section -->
       <ContactSection />
+
+      <MarqueeSection />
     </main>
 
     <!-- Footer -->
@@ -44,6 +49,7 @@ import ResumeSection from "../components/ResumeSection.vue";
 import PortfolioSection from "../components/PortfolioSection.vue";
 import GallerySection from "../components/GallerySection.vue";
 import ContactSection from "../components/ContactSection.vue";
+import MarqueeSection from "../components/MarqueeSection.vue";
 import ScrollTop from "../components/ScrollTop.vue";
 
 export default {
@@ -57,6 +63,7 @@ export default {
     PortfolioSection,
     GallerySection,
     ContactSection,
+    MarqueeSection,
     ScrollTop,
   },
   data() {
@@ -195,12 +202,12 @@ export default {
         });
 
         const portfolioFilters = document.querySelectorAll(
-          ".portfolio-filters li"
+          ".portfolio-filters li",
         );
         portfolioFilters.forEach((filter) => {
           filter.addEventListener("click", function () {
             portfolioFilters.forEach((el) =>
-              el.classList.remove("filter-active")
+              el.classList.remove("filter-active"),
             );
             this.classList.add("filter-active");
             portfolioIsotope.arrange({

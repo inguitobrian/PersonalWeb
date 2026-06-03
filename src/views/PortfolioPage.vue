@@ -232,11 +232,11 @@ export default {
         },
         {
           id: 6,
-          title: "Brand Identity Package",
-          images: ["branding-1.jpg"],
+          title: "Zcken Chicken Packaging Design",
+          images: ["Zcken - PNG.png"],
           categories: ["branding"],
           description:
-            "Complete brand identity design including logo, color palette, typography, and brand guidelines. This project showcases comprehensive branding solutions.",
+            "high-contrast visual identity and packaging design engineered to stand out, pairing playful energy with modern food branding.",
           githubLink: "",
           websiteLink: "",
         },

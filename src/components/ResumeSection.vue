@@ -90,24 +90,36 @@ export default {
       certifications: [
         {
           id: 1,
+          title: "Kaggle Introduction to Deep Learning",
+          date: "April 6, 2025",
+          organization: "Kaggle",
+        },
+        {
+          id: 2,
+          title: "Kaggle Introduction to Machine Learning",
+          date: "March 16, 2025",
+          organization: "Kaggle",
+        },
+        {
+          id: 3,
           title: "SoloLearn Introduction to Javascript",
           date: "August 29, 2024",
           organization: "SoloLearn",
         },
         {
-          id: 2,
+          id: 4,
           title: "SoloLearn Introduction to HTML",
           date: "August 20, 2024",
           organization: "SoloLearn",
         },
         {
-          id: 3,
+          id: 5,
           title: "SoloLearn Introduction to CSS",
           date: "August 20, 2024",
           organization: "SoloLearn",
         },
         {
-          id: 4,
+          id: 6,
           title: "DICT-GD002 Canva for Graphic Design",
           date: "July 05, 2024",
           organization:
@@ -155,6 +167,16 @@ export default {
           id: 4,
           image: "Introduction to JavaScript_certificate.jpg",
           alt: "JavaScript Certificate",
+        },
+        {
+          id: 5,
+          image: "BRIAN INGUITO - Intro to Machine Learning.png",
+          alt: "Machine Learning Certificate",
+        },
+        {
+          id: 6,
+          image: "BRIAN INGUITO - Intro to Deep Learning.png",
+          alt: "Deep Learning Certificate",
         },
       ],
     };

@@ -18,6 +18,23 @@
     <div class="overlay"></div>
     <!-- end of Background -->
 
+    <!-- Signature Overlay -->
+    <img
+      src="/assets/img/signature.svg"
+      alt="Signature"
+      class="signature-overlay"
+      style="
+        position: absolute;
+        bottom: -40px;
+        right: 20px;
+        width: 220px;
+        height: auto;
+        opacity: 1;
+        z-index: 10;
+        pointer-events: none;
+      "
+    />
+
     <div
       class="container-fluid text-container d-flex align-items-end justify-content-center"
     >
@@ -27,14 +44,14 @@
             <br />
             <br />
             <div class="hellocontent d-flex align-items-center gap-2">
-              <h6 class="pre-text mb-0">HELLO</h6>
+              <h6 class="pre-text mb-0">HELLO I'm</h6>
               <div
                 class="ms-1"
                 style="background-color: #fff9f9; height: 3px; width: 11rem"
               ></div>
             </div>
             <br />
-            <h1 class="home-font">I'm Brian</h1>
+            <h1 class="home-font">Brian Inguito</h1>
             <div class="d-flex align-items-center">
               <div class="container-fluid mx-auto homeload mb-2 text-loader">
                 <span ref="typedElement" class="typed"></span>

@@ -1,11 +1,7 @@
 <template>
   <section id="portfolio" class="portfolio section">
     <!-- Section Title -->
-    <div
-      class="container section-title about-page"
-      data-aos="fade-up-right"
-      data-aos-delay="100"
-    >
+    <div class="container section-title" data-aos="fade-up">
       <span class="description-title">Portfolio</span>
       <h2>Portfolio</h2>
     </div>
